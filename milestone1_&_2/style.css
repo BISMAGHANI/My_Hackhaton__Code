@@ -1,0 +1,119 @@
+/* General Styling */
+body {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(145, 126, 126);
+      margin: 0%;
+      padding: 150px;
+}
+
+.resume-container {
+    display: flex;
+    background-color: rgb(83, 49, 49) ;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 70px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1)
+}
+
+/* left section */
+.left-section{
+    background-color: rgb(95, 67, 67);
+    color: rgb(22, 17, 11);
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid ;
+}
+
+/* profile picture */
+.profile-picture{
+    width: 170px;
+    height: 200px;
+    margin-top: 10%;
+    border-radius: 30%;
+    border: 5px solid ;
+    margin-bottom: 20px;
+}
+
+/* h1 */
+h1{
+    font-size: 25px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* h3 */
+h3{
+    font-size: 20px;
+    margin: 10px 0 10px ;
+    padding: 2%;
+    color: rgb(17, 9, 9); 
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(17, 10, 7);
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+ul li{
+    margin: 5px 0;
+}
+
+/* right section styling */
+.right-section{
+padding: 65px;
+width: 65px;
+}
+
+.Right-section h1{
+    margin-top: 20px;
+    }
+
+button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+button:hover{
+    background-color: rgb(61, 23, 23);
+}
+
+#personal-info{
+    margin-left: 5px;
+}
+
+#Education-Section{
+    margin-left: 5px;
+}
+
+#Skills-Section{
+    margin-left: 5px;
+}
+
+#Experience{
+    margin-left: 5px;
+}
+
+#personal-info h3{
+   width: 92%;
+}
+
+#Education-Section h3{
+    width: 92%;
+}
+
+#Skills-Section h3{
+   width: 92%;
+}
+
+#Experience h3{
+    width: 92%;
+}
+
+#personal-info a{
+    color: #200f0f;
+}
